@@ -1,0 +1,67 @@
+:root{
+    --white: #fff;
+    --black: #1c2b2d;
+    --blue: #31326f;
+    --light-blue: #005490;
+    --color-primary: #9d0191;
+    --color-sec: #db6400;
+    --grey: #eee;
+    --dark-grey: #222831;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+html{
+    font-size: 10px;
+}
+
+.container{
+    width: inherit;
+    height: 100vh;
+    /* margin: 0 auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hex-div{
+    border: 1px solid grey;
+    width: 40rem;
+    padding:1rem;
+    text-align: center;
+    border-radius: 5px;
+    background-color: palegreen;
+}
+
+.hex-div h1{
+    font-size: 3rem;
+}
+
+.hex{
+    border: 1px solid grey;
+    font-size: 3rem;
+    padding:0 2rem;
+}
+
+.hex-div > *{
+    margin-bottom: 3rem;
+}
+
+.generate{
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: aqua;
+    border: none;
+    outline: none;
+    box-shadow: 0.2rem 0.8rem grey;
+    cursor: pointer;
+}
